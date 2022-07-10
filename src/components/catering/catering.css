@@ -1,0 +1,78 @@
+@media  screen and  (min-width:750px){
+    .contain{
+        background: url('section1.jpg') ;
+        background-size: cover;
+        height: 70vh;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .catering-header{
+        width: 30%;
+        background-color: inherit;
+        color: whitesmoke;
+
+    }
+    .bg{
+        border: 2px solid grey;
+        width: 80%;
+        padding: 10px;
+        background-color: none;
+        
+    }
+}
+.contain{
+    background-image: url('photo1.jpeg');
+    background-size: cover;
+    display: flex;
+    padding: 20px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.catering-header{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+}
+.bg{
+    border: 2px solid transparent;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    
+    overflow: hidden;
+    
+}7black adam
+.order{
+    padding: 15px;
+    color: grey;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    width: 20%;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    background-color: white;
+}
+.order:hover{
+    transform: scale(1.05);
+}
+
+.order-text:hover{
+    visibility: visible;
+}
+.img-response{
+    height:200px;
+    width:200px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
