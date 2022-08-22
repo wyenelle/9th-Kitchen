@@ -1,4 +1,4 @@
-@media  screen and  (min-width:750px){
+/* @media  screen and  (min-width:750px){
     .contain{
         background: url('section1.jpg') ;
         background-size: cover;
@@ -33,7 +33,7 @@
     background-size: cover;
     
 }
-/* 070034335489 */
+/* 070034335489 
 .contain-wrap{
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* background-color: rgba(0, 0, 0, 0.7); 
     
     overflow: hidden;
     
@@ -88,4 +88,18 @@
 }
 .heigth{
     height: 10em;
+} */
+
+.contain-wrap{
+    width: 100%;
+    margin-top: 1em;
+    
+}
+@media screen and (min-width:760px){
+    .contain-wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        column-gap: 10px;
+
+    }
 }
