@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css";
 
 const Nav = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg fixed-top navbar-default  bg-light">
     <div className="container-fluid">
       <a className="navbar-brand" href="#">
         Navbar

@@ -7,7 +7,7 @@ const Food = ({img}) => (
         <img src={img} alt='food image ' className="  img-responsive " />
             
         </div><br />
-        <p className="text-secondary order-text mt-3">
+        <p className=" food-text mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta culpa illo recusandae natus modi corrupti quidem incidunt unde minus quia.
               quasi.
             </p>

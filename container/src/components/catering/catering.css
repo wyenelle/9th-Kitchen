@@ -93,6 +93,7 @@
 .contain-wrap{
     width: 100%;
     margin-top: 1em;
+    padding: 5px;
     
 }
 @media screen and (min-width:760px){

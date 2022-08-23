@@ -1,0 +1,22 @@
+@media screen and (min-width:750px) {
+    .container{
+        border: 1px solid black;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-img{
+        /* background: url('./chef-jonathan.jpg'); */
+        background-size: 100% ;
+        background-color: brown;
+    }
+    .about-header{
+        width: 100%;
+    }
+    .about-info{
+        padding: 10px;
+        color: blue;
+    }
+}
